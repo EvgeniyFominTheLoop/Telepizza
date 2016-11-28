@@ -5,6 +5,13 @@
 /*
 body {white-space: nowrap;}*/
 
+@font-face {
+	font-family: 'AvenirNextLTPro-Demi';
+	src: url('AvenirNextLTPro-Demi.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 #content {
 	display: block;
 	width: 100%;
@@ -92,4 +99,5 @@ body {white-space: nowrap;}*/
 	border-radius: 3px;
 	border-image-source: linear-gradient(to bottom, #d9ea48, #9ca92d);
 	border-image-slice: 1;
+	font-family: 'AvenirNextLTPro-Demi';
 }
