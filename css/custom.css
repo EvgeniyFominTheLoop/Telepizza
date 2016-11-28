@@ -1,0 +1,95 @@
+*, html, ul, li {
+	margin:0;
+	padding:0;
+}
+/*
+body {white-space: nowrap;}*/
+
+#content {
+	display: block;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	float: none;
+}
+
+.menu {
+	width: 100%;
+	height: 63px;
+	background-color: #f90000;
+}
+
+/*.menu > div {display: inline-block;}*/
+
+.hamburger {
+	display: inline-block;
+	width: 63px;
+	height: 63px;
+	background-color: rgba(39, 39, 39, 0.1);
+	/*cursor: pointer;
+	pointer-events: none;*/
+}
+
+.hamburger span {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: 29px;
+	width: 32px;
+	height: 2px;
+	background: #fff;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.hamburger span:before, .hamburger span:after {
+	position: absolute;
+	background: #fff;
+	content: '';
+	width: 32px;
+	height: 2px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.hamburger span:before {top: -9px;}
+
+.hamburger span:after {top: 9px;}
+
+.hamburger.active span {background: transparent;}
+
+.hamburger.active span:before {
+	-webkit-transform: rotate(45deg) translate(5px, 6px);
+			transform: rotate(45deg) translate(5px, 6px);
+}
+
+.hamburger.active span:after {
+	-webkit-transform: rotate(-45deg) translate(5px, -6px);
+			transform: rotate(-45deg) translate(5px, -6px);
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	width: 159px;
+	height: 35px;
+	bottom: 26px;
+	left: 13px;
+}
+
+.menu button {
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 185px;
+	height: 45px;
+	right: 46px;
+	top: 8px;
+	color: #fff;
+	background-color: #bbce16;
+	box-shadow: 0px 6px 8px 0 rgba(0, 0, 0, 0.52);
+	border: 1px solid;
+	border-radius: 3px;
+	border-image-source: linear-gradient(to bottom, #d9ea48, #9ca92d);
+	border-image-slice: 1;
+}
