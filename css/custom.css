@@ -1,9 +1,12 @@
-*, html, ul, li {
+/**, html, ul, li {
 	margin:0;
 	padding:0;
+}*/
+
+body {
+	color: #fff;
+	white-space: nowrap;
 }
-/*
-body {white-space: nowrap;}*/
 /*
 @font-face {
 	font-family: 'AvenirNextLTPro-Demi';
@@ -12,58 +15,52 @@ body {white-space: nowrap;}*/
 	font-style: normal;
 }*/
 
-#content {
-	display: block;
-	width: 100%;
-	max-width: 1170px;
-	margin: 0 auto;
-	float: none;
+#content.container {
+	padding: 0;
 }
 
-.top-bar {
-	/*width: 100%;*/
+.navbar {
 	height: 63px;
 	background-color: #f90000;
+	border: 0;
+	border-radius: 0;
 }
 
-/*.top-bar > div {display: inline-block;}*/
-
-.hamburger {
-	display: inline-block;
+/*.hamburger {
 	width: 63px;
-	height: 63px;
+	height: inherit;
 	background-color: rgba(39, 39, 39, 0.1);
-	/*cursor: pointer;
-	pointer-events: none;*/
+	padding: 29px 15px 32px 16px;
 }
 
 .hamburger span {
-	position: relative;
-	display: block;
+	display: inline-block;
 	margin: 0 auto;
-	top: 29px;
-	width: 32px;
-	height: 2px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
 	background: #fff;
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 
 .hamburger span:before, .hamburger span:after {
-	position: absolute;
+	display: inherit;
+	position: relative;
 	background: #fff;
 	content: '';
-	width: 32px;
-	height: 2px;
+	width: inherit;
+	height: inherit;
+	margin: inherit;
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 
-.hamburger span:before {top: -9px;}
+.hamburger span:before {top: -22px;}
 
-.hamburger span:after {top: 9px;}
+.hamburger span:after {top: -24px;}*/
 
-.hamburger.active span {background: transparent;}
+/*.hamburger.active span {background: transparent;}
 
 .hamburger.active span:before {
 	-webkit-transform: rotate(45deg) translate(5px, 6px);
@@ -73,18 +70,18 @@ body {white-space: nowrap;}*/
 .hamburger.active span:after {
 	-webkit-transform: rotate(-45deg) translate(5px, -6px);
 			transform: rotate(-45deg) translate(5px, -6px);
-}
+}*/
 
 .logo {
-	display: inline-block;
-	position: relative;
-	width: 159px;
-	height: 35px;
-	bottom: 26px;
-	left: 13px;
+	padding: 16px 17px;
+	height: inherit;
 }
 
-.top-bar button {
+/*.menu {
+
+}*/
+
+/*.navbar button {
 	display: inline-block;
 	position: relative;
 	float: right;
@@ -99,5 +96,5 @@ body {white-space: nowrap;}*/
 	border-radius: 3px;
 	border-image-source: linear-gradient(to bottom, #d9ea48, #9ca92d);
 	border-image-slice: 1;
-/*	font-family: 'AvenirNextLTPro-Demi';*/
-}
+}*/
+/*	font-family: 'AvenirNextLTPro-Demi';
