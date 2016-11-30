@@ -104,8 +104,12 @@ body {
 	border-image-slice: 1;
 }
 
-#slider.container {
+/*.carousel-inner {
 	height: 540px;
+}*/
+
+.carousel-inner>.item>img {
+	width: 100%;
 }
 
 .call {
@@ -123,7 +127,7 @@ body {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	margin: 0px 0 20px 48px;
+	margin: 0 0 15px 50px;
 	font-family: "AvenirNextLTPro-Demi";
 	text-shadow: 0 0 9px rgba(4, 4, 4, 0.53);
 	z-index: 1;
@@ -149,28 +153,32 @@ body {
 	margin: 0;
 }
 
-.carousel-inner h1 {
-	font-size: 48px;
-}
-
-#one {
-	height: 168px;
+.carousel-inner span {
+	font-size: 3.4em;
 }
 
 #one > div {height: 168px;}
 
-.menu img, .sale img {
-	width: 100%;
+.menu, .sale, .find {
+	display: table-cell;
 }
 
 .menu {
 	background: #b20000;
-	padding: 26px 98px 0 103px;
+	text-align: center;
+}
+
+.menu img {
+	margin: 26px 0 0 6px;
 }
 
 .sale {
 	background: #ffc107;
-	padding: 18px 95px 0 112px;
+	text-align: center;
+}
+
+.sale img {
+	margin: 18px 0 0 19px;
 }
 
 .find {
@@ -187,7 +195,7 @@ body {
 }
 
 .dropdown .dropdown-toggle {
-	width: 333px;
+	width: 66%;
 	height: 34px;
 	padding: 2px 11px 0 17px;
 	border: 0;
@@ -205,7 +213,7 @@ img.arrow  {
 }
 
 button#submit {
-	width: 154px;
+	width: 31%;
 	height: 33px;
 	padding: 1px 0px 0 7px;
 	background-color: #bbce16;
@@ -235,9 +243,9 @@ button#submit {
 .navbar .btn {
 	margin: 8px 25px;}
 
-.navbar-collapse.collapse {
+/*.navbar-collapse.collapse {
 	display: inline-block!important;}
-}
+}*/
 
 @media (min-width: 1200px) {
 .navbar-nav>li>a {
