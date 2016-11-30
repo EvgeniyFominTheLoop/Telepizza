@@ -221,6 +221,11 @@ button#submit {
 
 
 
+@media (min-width: 320px) {
+.navbar .btn {
+	margin: 8px;}
+}
+
 @media (min-width: 768px) {
 .navbar-toggle {
 	display: block;
