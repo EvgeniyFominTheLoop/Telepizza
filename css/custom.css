@@ -322,17 +322,11 @@ button#submit {
 	background: -ms-radial-gradient(#fabe4e, #dba233);
 }
 
-/*.item-inner-3 img {
-	width: 140px;
-	height: 211px;
-	margin: -137px 92px 0;
-}*/
-
-.item-inner-3 a {
+/*.item-inner-3 a {
 	margin: -29px 42px 0 29px;
 	padding: 3px 7px;
 	letter-spacing: 0.2px;
-}
+}*/
 
 .item-inner-1 a, .item-inner-2 a, .item-inner-3 a {
 	font-size: 1.5em;
