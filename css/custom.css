@@ -312,9 +312,18 @@ button#submit {
 
 .item-inner-2 a {
 	margin: -87px 32px 0 57px;
-	padding: 4px 7px 5px;
-	letter-spacing: 0.2px;
+	background: none;
 }
+
+.item-inner-2 a p {
+	display: inline; 
+	background: rgba(0, 0, 0, 0.4); 
+	padding: 4px 7px;
+	letter-spacing: 0.2px;
+	line-height: 1.6;
+}
+
+
 
 .item-inner-3 {
 	background: radial-gradient(#fabe4e, #dba233);
