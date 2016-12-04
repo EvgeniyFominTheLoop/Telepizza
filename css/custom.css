@@ -78,7 +78,7 @@ body {
 }
 
 .nav>li {
-	margin-top: 22px;
+	margin-top: 25px;
 	border-right: 2px solid;
 	border-color: inherit;
 }
@@ -427,7 +427,8 @@ button#submit {
 
 @media (min-width: 1200px) {
 .navbar-nav>li>a {
-	padding: 0 31px;}
+	padding: 0 31px;
+	line-height: 14px;}
 
 .navbar .btn {
 	margin: 8px 46px 0 45px;}
