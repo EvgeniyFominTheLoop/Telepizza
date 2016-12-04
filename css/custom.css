@@ -318,7 +318,7 @@ button#submit {
 .item-inner-2 a p {
 	display: inline; 
 	background: rgba(0, 0, 0, 0.4); 
-	padding: 4px 7px;
+	padding: 4px;
 	letter-spacing: 0.2px;
 	line-height: 1.6;
 }
