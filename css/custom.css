@@ -171,7 +171,7 @@ body {
 /*#one img.arrow  {
 }*/
 
-.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a {
+.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .expert a {
 	display: block;
 	height: auto;
 	font-size: 1.4em;
@@ -244,7 +244,7 @@ body {
 	margin-top: 3px;
 }
 
-button#submit {
+button#submit1, button#submit2 {
 	width: 30.5%;
 	height: 33px;
 	padding: 1px 0px 0 7px;
@@ -453,6 +453,41 @@ button#submit {
     height: 501px;
 }
 
+.info {
+	width: 42%;
+	padding: 19px 23px 0 22px;
+	margin: 55px 36px 0 0;
+	background: rgba(0, 0, 0, 0.52);
+}
+
+.info > :first-child {
+	text-align: center;
+	font-size: 1.7em;
+	margin-bottom: 52px;
+}
+
+.info > :nth-child(2) {
+	font-size: 1.6em;
+	letter-spacing: 0.7px;
+	line-height: 24px;
+}
+
+.info div span:last-child {
+	font-family: "AvenirNextLTPro-Bold";
+}
+
+.info p {
+	white-space: pre-wrap;
+}
+
+.info > :last-child {
+	text-align: justify;
+	font-size: 1.3em;
+	margin: 18px 0 37px;
+	letter-spacing: -0.2px;
+	line-height: 18px;
+}
+
 #metro {
 	border-top: 1px solid;
 }
@@ -460,7 +495,7 @@ button#submit {
 #metro > div {
 	display: table-cell;
 	border-collapse: collapse;
-	padding: 0;
+	/*padding: 0;*/
 	border: 1px solid;
 }
 
@@ -470,6 +505,13 @@ button#submit {
 	border-left: none !important;
 }
 
+.opinion img {
+	width: 478px;
+	height: 488px;
+	float: right;
+	margin: 14px 7px 0px 0;
+}
+
 .subscribe, .facebook, .expert {
 	height: 252px;
 }
@@ -477,16 +519,64 @@ button#submit {
 .subscribe {
 	background-image: url(../img/heart.png);
 	border-right: none !important;
+	text-align: center;
+	padding: 51px 0 0 0;
+}
+
+.subscribe span {
+	display: block;
+	font-size: 23px;
+	letter-spacing: 0.5px;
+}
+
+.subscribe span:nth-child(2) {
+	font-family: "AvenirNextLTPro-Demi";
+	margin-top: -8px;
+	letter-spacing: 0.6px;
+}
+
+.subscribe input {
+	width: 56%;
+	height: 35px;
+	font-style: italic;
+	text-align: center;
+	margin: 5px auto 20px;
+}
+
+.subscribe button#submit2 {
+	width: 20%;
+	height: 35px;
 }
 
 .facebook {
 	background-color: #5d82d1;
+	padding: 89px 0 0 122px;
+}
+
+.facebook img {
+	width: 88px;
+	height: 104px;
 }
 
 .expert {
 	background-color: #f5bf56;
 	border-right: none !important;
-	box-shadow: 4.2px 4.2px 12px 0 rgba(0, 0, 0, 0.15);
+	/*padding: 76px 0 0 47px;*/
+	padding: 76px 0;
+	text-align: center;
+}
+
+.expert > span, .expert > p {
+	font-size: 1.6em;
+	letter-spacing: 1.6px;
+}
+
+.expert a {
+	width: 75%;
+	height: 35px;
+	margin-top: 15px;
+	padding: 3px 12px 0 28px;
+	text-align: left;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
