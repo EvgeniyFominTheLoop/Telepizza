@@ -581,7 +581,7 @@ button#submit1, button#submit2 {
 
 
 .about, .check, .company {
-	height: 250px;
+	height: 248px;
 }
 
 .about a, .check a, .company a {
@@ -652,6 +652,12 @@ button#submit1, button#submit2 {
 .company a {
 	width: 30%;
 	padding: 5px 17px 0 30px;
+}
+
+footer {
+	height: 252px;
+	background-color: #ed1c24;
+	border-top: 1px solid #fff;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
