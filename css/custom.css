@@ -171,7 +171,7 @@ body {
 /*#one img.arrow  {
 }*/
 
-.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .opinion a, .expert a, .about a, .check a, .company a {
+.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .expert a, .about a, .check a, .company a {
 	display: block;
 	height: auto;
 	font-size: 1.4em;
@@ -324,7 +324,6 @@ button#submit1, button#submit2 {
 	padding: 5px 7px 1px;
 	letter-spacing: 0.2px;
 	line-height: 1.6;
-	
 }
 
 .item-inner-2 a p:first-child {
@@ -510,6 +509,23 @@ button#submit1, button#submit2 {
 	height: 488px;
 	float: right;
 	margin: 14px 7px 0px 0;
+}
+
+.opinion a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.opinion a p:first-child {
+	display: inline;
+}
+
+.opinion a p {
+	background: rgba(0, 0, 0, 0.4); 
+/*	padding: 5px 7px 1px;
+	letter-spacing: 0.2px;
+	line-height: 1.6;*/
 }
 
 .subscribe, .facebook, .expert {
