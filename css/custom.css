@@ -171,7 +171,7 @@ body {
 /*#one img.arrow  {
 }*/
 
-.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .expert a {
+.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .expert a, .about a, .check a, .company a {
 	display: block;
 	height: auto;
 	font-size: 1.4em;
@@ -577,6 +577,81 @@ button#submit1, button#submit2 {
 	margin-top: 15px;
 	padding: 3px 12px 0 28px;
 	text-align: left;
+}
+
+
+.about, .check, .company {
+	height: 250px;
+}
+
+.about a, .check a, .company a {
+	height: 35px;
+	letter-spacing: 1.2px;
+}
+
+.about {
+	padding: 34px 13px 0 50px;
+	background-color: #e30613;
+	border-left: none !important;
+}
+
+.about > img {
+	width: 170px;
+	height: 157px;
+	margin-bottom: 9px;
+}
+
+.about a {
+	width: 59%;
+	padding: 5px 13px 0 11px;
+	letter-spacing: 1px;
+}
+
+.check {
+	padding: 0 12px 0 15px;
+	background-color: #d15dcd;
+}
+
+.check > img {
+	margin-top: 62px;
+	margin-bottom: 13px;
+}
+
+.check span {
+	font-size: 1.6em;
+	letter-spacing: 1px;
+	margin-bottom: 22px;
+}
+
+.check a {
+	width: 51%;
+	padding: 5px 13px 0 12px;
+}
+
+.company {
+	background-color: #a8a9ad;
+	border-right: none !important;
+}
+
+.company > :first-child {
+	font-size: 1.7em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.company :first-child :last-child {
+	font-family: "AvenirNextLTPro-Demi";
+}
+
+.company > img {
+	width: 245px;
+	height: 116px;
+	margin-bottom: 10px;
+}
+
+.company a {
+	width: 30%;
+	padding: 5px 17px 0 30px;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
