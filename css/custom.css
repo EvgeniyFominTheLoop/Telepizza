@@ -171,7 +171,7 @@ body {
 /*#one img.arrow  {
 }*/
 
-.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .expert a, .about a, .check a, .company a {
+.menu a, .sale a, .item-inner-1 a, .item-inner-2 a, .item-inner-3 a, .news a, .opinion a, .expert a, .about a, .check a, .company a {
 	display: block;
 	height: auto;
 	font-size: 1.4em;
@@ -505,7 +505,7 @@ button#submit1, button#submit2 {
 	border-left: none !important;
 }
 
-.opinion img {
+.opinion > img {
 	width: 478px;
 	height: 488px;
 	float: right;
